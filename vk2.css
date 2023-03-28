@@ -1,0 +1,540 @@
+@font-face {
+	font-family: VKSans;
+	src: url(fonts/VKSans.ttf);
+}
+
+body {
+	font-size: 13px;
+	background-color:  #EDEEF0;
+	margin: 0;
+	font-family: VKSans;
+}
+
+header {
+	background-color: #4277A5;
+	color: white;
+    height: 45px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 150px;
+	padding-left: 50px;
+	
+}
+
+.searchBlock {
+	width: 900px;
+}
+
+.search {
+	color: #7A8695;
+	border: none;
+	outline: none;
+	height: 25px;
+	border-radius: 16px;
+	background-color: #2C4869;
+	background-position: 20px;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+.fullBlock {
+	display: flex;
+	justify-content: center;
+
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 500px;
+	padding-left: 50px;
+	color: #232c2e;
+}
+
+.links {
+	height: 40px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	color: #232c2e;
+	text-decoration: none;	
+}
+
+.spaceRow {
+	height: 16px;
+	background-color:  #EDEEF0;
+}
+
+.spaceColumn {
+	width: 16px;
+	background-color:  #EDEEF0;
+}
+
+::placeholder {
+	color: #7A8695;
+}
+
+.links:active{
+	color: #E5E7EB;
+}
+
+.links:hover{
+	color: darkgrey;
+}
+
+.redBlock:hover {
+	background: #DEE4EC;
+}
+
+.page {
+	width: 350px;
+	background: white;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.photoava {
+	width: 320px;
+	height: 320px;
+	margin: 16px 16px 12px 16px;
+}
+
+.redBlock {
+	margin-left: 16px;
+	margin-bottom: 16px;
+	width: 320px;
+	height: 32px;
+	border-radius: 4px;
+	background-color: #EDEEF0;
+	color: #232c2e;
+	justify-content: flex-end;
+	align-items: flex-end;
+		border: none;
+}
+
+.friends {
+	height: 254px;
+	background: white;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.blockFriends {
+	height: 20px;
+	width: 100%;
+	align-items: center;
+}
+
+.iconFriends {
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.friend2 {
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+	margin: 8px;
+}
+.friend1 {
+	width: 80px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-radius: 8px;
+}
+
+.friend1:link{
+	background: white;
+}
+
+.friend1:active{
+	background: #F5F6F8;
+}
+
+.friend1:hover{
+	background: #F5F6F8;
+}
+
+.info {
+	width: 550px;
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.About1 {
+	width: 200px;
+	color: #818C99;
+}
+
+.About2 {
+	width: 300px;
+	color: #2C4869;
+}
+
+.status {
+	color: #818C99;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+hr {
+	border: none;
+	color: #d9d9d9;
+	height: 0.5px;
+}
+
+.review {
+	height: 48px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+
+.info2 {
+	width: 90px;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+
+}
+.About3 {
+	color: #2C4869;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.About4 {
+	font-size: 12px;
+	color: #818C99;
+	display: flex;
+	justify-content: center;
+}
+
+.aboutMe {
+	background: white;
+	border-radius: 8px;
+	width: 550px;
+	height: 304px;
+	padding: 16px;
+}
+
+.firstInfo {
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.fullName {
+	display: flex;
+	flex-direction: column;
+	padding-right: 150px;
+
+}
+
+.name {
+	font-size: 18px;
+	display: flex;
+}
+
+.phrase {
+	font-size: 15px;
+}
+
+.status {
+	color: #818C99;
+	padding-left: 150px;
+
+}
+
+.introduce {
+	padding-top: 16px;
+	height: 140px;
+}
+
+.infoall {
+	display: flex;
+	flex-direction: column;
+}
+
+.photosmy {
+	width: 550px;
+	height: 150px;
+	background-color: white;
+	border-radius: 8px;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.photosText {
+	height: 20px;
+	padding: 0px 10px 10px 10px;
+}
+
+.photos {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.photo {
+	height: 120px;
+	width: 100px;
+		padding-bottom: 10px;
+}
+
+.posts {
+	width: 550px;
+	height: 174px;
+	background: white;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.FirstPost {
+	height: 64px;
+	display: flex;
+}
+
+.photo2 {
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+}
+
+.NameNdate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.firstInfo {
+	background-color: #EDEEF0;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 500px;
+	height: 40px;
+	color: black;
+}
+.find {
+	border: none;
+	height: 30px;
+	width: 120px;
+	color: white;
+	background: #4277A5;
+	border-radius: 4px;
+}
+.menu2 {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 500px;
+	padding-left: 50px;
+	color: #232c2e;
+}
+
+.avaphotolist {
+	height: 80px;
+	width: 80px;
+	border-radius: 45px;
+}
+
+.spaceColumn8px {
+	width: 8px;
+}
+
+.Friend1 { 
+	display: flex;
+	height: 80px;
+	background: white;
+	padding: 8px 16px 8px 16px;
+	justify-content: space-between;
+}
+
+.avaphotolist {
+	height: 80px;
+	width: 80px;
+	border-radius: 45px;
+}
+.dots{
+	color: #9691F6;
+	font-weight: bold;
+	font-size: 16px;
+}
+.friendName {
+	font-weight: bold;
+	color: #4277A5;
+}
+.Message {
+	margin-top: 6px;
+	color: #4277A5;	
+	text-decoration: none;
+}
+
+.friendText {
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+	width: 200px;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.UnivName {
+	margin-top: 6px;
+	color: #818C99;	
+}
+
+.fullBlock2 {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 160px;
+}
+
+.menu2 {
+	width: 164px;
+	display: flex;
+	flex-direction: column;
+}
+
+.links2 {
+	height: 30px;
+	width: 154px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.links2:link{
+	background: #EDEEF0;
+}
+
+.links2:active{
+	background: #E5E7EB;
+}
+
+.links2:hover{
+	background: #E5E7EB;
+}
+.FriendList {
+	width: 500px;
+	height: 1000px;
+	border-radius: 8px;
+
+}
+.FirstInfo {
+	padding: 8px 16px 8px 16px;
+	height: 36px;
+	background: #FAFAFF;
+	border-radius: 8px 8px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headerText {
+	display: flex;
+}
+.headerNum {
+	color: #818C99;
+}
+
+.FindFriend {
+	width: 546px;
+	border: none;
+	outline: none;
+	height: 36px;
+	background: white;
+	background-position: 10px;
+	background-repeat: no-repeat;
+	padding-left: 34px;
+	color: #7A8695;
+}
+
+.AboutFriends {
+	width: 300px;
+}
+
+.linkforF {
+	height: 226px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background: white;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.links3 {
+	padding-left: 16px;
+	height: 36px;
+	color: #2C4869;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.links3:link{
+	background: white;
+}
+
+.links3:active{
+	background: #F5F6F8;
+}
+
+.links3:hover{
+	background: #F5F6F8;
+}
+.MaybeFriends {
+	height: 426px;
+	padding: 16px;
+	background: white;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mbtxt {
+	height: 20px;
+	margin-bottom: 16px;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+.MaybeFriend1 {
+	display: flex;
+	flex-direction: row;
+}
+.mbava {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.friendName {
+	color: #2C4869;
+}
+.MutualFriends {
+	height: 20px;
+	width: 100%;
+	align-items: center;
+}
+.txtmbfr {
+	padding: 10px;
+}
